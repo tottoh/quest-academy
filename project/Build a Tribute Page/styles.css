@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+#header{
+    text-align: center;
+    background-color: #f29696;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+body {
+
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    justify-content: center;
+    background-color:#ffe2ad ;
+
+}
+#timeline{
+
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    width: fit-content;
+    height: fit-content;
+    background-color: #4c657e;
+    padding: 50px;
+    border-radius: 15px;
+}
+#timeline:hover{
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    padding: 50px;
+    border-radius: 15px;
+    
+    
+}
+li{
+    list-style-type:none;
+}
+li:hover{
+    scale:1.5;
+    background-color: paleturquoise;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-type:none;
+}
+.h1tl{
+text-align: center;
+color: white;
+}
+img {
+    display: block;
+    justify-content: center;
+}
+
+#image {
+    max-width: 50%;
+    max-height: 50%;
+    height: auto;
+    margin: 0 auto;
+    border-radius:120px 125px 120px 125px;
+    box-shadow: 1px 13px 101px 10px rgba(0,0,0,0.59);
+-webkit-box-shadow: 1px 13px 101px 10px rgba(0,0,0,0.59);
+-moz-box-shadow: 1px 13px 101px 10px rgba(0,0,0,0.59);
+}
+
+#founded {
+    color: palevioletred;
+}
+
+#acquired {
+    color: blueviolet;
+}
+#tribute-info{
+    text-align: center;
+}
+.list{
+background-color: white;
+border-radius: 15px;
+padding: 50px;
+}
