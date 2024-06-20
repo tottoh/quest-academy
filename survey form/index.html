@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>survey form</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title" class="title">arai wa</h1>
+        <p id="description" class="title">arai gor mai roo</p>
+
+        <form id="survey-form">
+            <div id="form">
+                <div id="form-group">
+                    <label id="name-label">name</label>
+                    <input id="name" type=text required placeholder="enter your name">
+                </div>
+                <div id="form-group">
+                    <label id="email-label">email</label>
+                    <input id="email" type=email required placeholder="enter your email">
+                </div>
+                <div id="form-group">
+                    <label id="number-label">age</label>
+                    <input id="number" type="number" min="10" max="99" placeholder="number">
+                </div>
+                <div id="form-group">
+                    <select id="dropdown" required>
+                        <option disabled selected value>Select an option</option>
+                        <option value="arai"></option>
+                        <option value="mai roo"></option>
+                    </select>
+                </div>
+
+                <div id="form-group">
+                    <label>
+                        <input name="1" id="radio" type="radio" value="man"> 1
+                    </label>
+
+                    <label>
+                        <input name="1" id="radio"type="radio" value="woman"> 2
+                    </label>
+                </div>
+
+            </div>
+
+            <label>
+                <input name="1" id="check" type="checkbox" value="man"> 1
+            </label>
+
+            <label>
+                <input name="1" id="check" type="checkbox" value="woman"> 2
+            </label>
+            <textarea placeholder="write here"></textarea>
+
+            <button id="submit" type="submit" class="submit-button"></button>
+    </div>
+    </form>
+</body>
+
+
+
+</html>
