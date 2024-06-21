@@ -3,10 +3,11 @@
 <head>
     <title>survey form</title>
     <link rel="stylesheet" href="styles.css">
-
 </head>
 
 <body>
+    
+    <div id="background">
     <div class="container">
         <h1 id="title" class="title">arai wa</h1>
         <p id="description" class="title">arai gor mai roo</p>
@@ -15,48 +16,54 @@
             <div id="form">
                 <div id="form-group">
                     <label id="name-label">name</label>
-                    <input id="name" type=text required placeholder="enter your name">
+                    <input id="name" class="form-control" type=text required placeholder="enter your name">
                 </div>
                 <div id="form-group">
                     <label id="email-label">email</label>
-                    <input id="email" type=email required placeholder="enter your email">
+                    <input id="email" class="form-control" type=email required placeholder="enter your email">
                 </div>
                 <div id="form-group">
                     <label id="number-label">age</label>
-                    <input id="number" type="number" min="10" max="99" placeholder="number">
+                    <input id="number" class="form-control" type="number" min="10" max="99" placeholder="number">
                 </div>
                 <div id="form-group">
-                    <select id="dropdown" required>
+                    <label id="dropdown-label">dropdown</label>
+                    <select id="dropdown" class="form-control" required>
                         <option disabled selected value>Select an option</option>
-                        <option value="arai"></option>
-                        <option value="mai roo"></option>
+                        <option value="arai">arai</option>
+                        <option value="mai roo">mai roo</option>
                     </select>
                 </div>
 
                 <div id="form-group">
+                    <label id="gender"> are you a man or woman?</label>
                     <label>
-                        <input name="1" id="radio" type="radio" value="man"> 1
+                        <input name="1" id="radio" type="radio" value="man"> man
                     </label>
 
                     <label>
-                        <input name="1" id="radio"type="radio" value="woman"> 2
+                        <input name="1" id="radio" type="radio" value="woman"> woman
                     </label>
                 </div>
 
+                <div id="form-group">
+                <label id="food"> do you like both foods?</label>
+                <label>
+                    <input name="1" id="check" type="checkbox" value="man"> sushi
+                </label>
+
+                <label>
+                    <input name="1" id="check" type="checkbox" value="woman"> tempura
+                </label>
+                <textarea id="comments"placeholder="write here"></textarea>
+
+                <button id="submit" type="submit" class="submit-button">submit</button>
+            </div>
             </div>
 
-            <label>
-                <input name="1" id="check" type="checkbox" value="man"> 1
-            </label>
-
-            <label>
-                <input name="1" id="check" type="checkbox" value="woman"> 2
-            </label>
-            <textarea placeholder="write here"></textarea>
-
-            <button id="submit" type="submit" class="submit-button"></button>
+        </form>
     </div>
-    </form>
+</div>
 </body>
 
 
