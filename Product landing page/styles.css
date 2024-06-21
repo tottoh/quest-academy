@@ -1,0 +1,28 @@
+#logo{
+width: 50px;
+height: 50px;
+}
+.page-wrapper{
+    position: relative;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+    width: 100%;
+    
+}
+#container{
+    margin: 0 auto;
+    width: fit-content;
+   
+}
+section {
+    margin-top: 100px;
+}
