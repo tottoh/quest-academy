@@ -1,10 +1,14 @@
-#logo{
-width: 50px;
-height: 50px;
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+#header-img {
+    width: 100px;
 }
-.page-wrapper{
+
+.page-wrapper {
     position: relative;
 }
+
 header {
     position: fixed;
     top: 0;
@@ -16,13 +20,73 @@ header {
     align-items: center;
     background-color: #eee;
     width: 100%;
-    
+
 }
-#container{
+body{
+    background-image:url(https://i.redd.it/204xhbgw9igb1.jpg);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #eee;
+    font-family: "Lobster Two", sans-serif;
+}
+#container {
     margin: 0 auto;
-    width: fit-content;
-   
+    width: 80%;
 }
+
 section {
     margin-top: 100px;
+}
+
+.icon {
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0,0, 0.4) ;
+}
+
+.character {
+    display: flex;
+    width: fit-content;
+    background-color:rgba(0, 0, 0, 0.4);
+    color: aquamarine;
+    font-size: medium;
+    padding: 5px;
+}
+
+
+.summary {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#video {
+    border-radius: 20px;
+}
+
+#pricing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+
+.figurines {
+    height: 300px;
+    width: 300px;
+}
+.flexanime{
+    margin: 5px;
+}
+#email{
+    padding: 10px;
+    border-radius: 20px;
+}
+#submit{
+    border-radius: 20px;
+    width: 100px;
+    padding: 10px;
+    background-color: aqua;
 }
