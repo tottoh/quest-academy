@@ -1,83 +1,121 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif; 
-    background-color: rgb(140, 140, 140);
-}
 
-.container {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://wallpapercave.com/wp/wp4177382.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Roboto Mono", monospace;
+}
+.container{
     display: flex;
-    align-items: center; 
-    height: 87vh;
-    background-color: white;
-    position: fixed;
+    background-color:  rgba(255, 255, 255, 0.5);
     width: 300px;
-    color: black;
-    text-align: center;
-    margin: 50px 70px 50px 70px;
-}
-
-nav {
-    display: flex;
-    flex-direction: column; /* Stack the photo, menu, and contacts vertically */
-    width: 100%;
-    padding: 20px;
-}
-
-.photo {
-    display: flex;
-    width: 100%;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    text-align: center;
+    position: fixed;
+    line-height: 28px;
+    margin: 25px;
+    padding: 140px 10px;
+    border-radius: 10px;
 }
 
-.photo-img {
+.photo-img{
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    object-fit: cover;
+    border-radius: 500%;
+    margin-bottom: 25px;
 }
 
-.menu {
+.icon-contact{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 500%;
+}
+
+main{
+    color: black;
+    margin-left: 500px;
+    width: auto;
+}
+
+section {
     width: 100%;
-    margin-bottom: 20px;
+    min-height: 100vh;
+    padding: 50px;
+    background-color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 50px;
+    border-radius: 20px;
 }
-
-.menu ul {
+ul,li{
     list-style: none;
     padding: 0;
     margin: 0;
-    width: 100%;
 }
 
-.menu li {
-    background-color: white;
-    padding: 10px;
-    margin-bottom: 5px;
-}
-
-.menu li a {
-    
+a{
     text-decoration: none;
-    color: black;
+    color: inherit;
+}
+.menu-design{
+    background-color: rgb(32, 13, 70);
+    margin: 5px;
+    border-radius: 100px;
+    color: rgb(255, 255, 255)
 }
 
-.menu p {
+.menu-design:hover{
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    border-radius: 100px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    color: rgb(0, 0, 0);
+    scale: 1.2;
+}
+
+
+
+
+.layout {
+    width: 1366px;
+    height: 768px;
+  
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  .image-projects{
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    background-color:white ;
+    border-radius: 20px;
     
-    margin: 0;
-    padding: 10px 0 0 0;
-}
+  }
+  #portfolio{
+    text-align:center;
+    font-size: large;
+    
+  }
+  
+  .homedesign{
+    background-color: aliceblue;
+    width: fit-content;
+    padding: 100px;
+    border-radius:15px ;
+    margin: 25vh auto;
+    text-align: center;
+  }
 
-.contacts {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.icon-contact {
-    width: 40px;
-    height: 40px;
-}
-section{
-    height: 85vh;
-    margin: 0px 0px 0px 500px;
-    background-color: aquamarine;
-}
+  .text-title{
+    background-color:white ;
+    border-radius: 100px;
+    padding: 20px;
+  }
