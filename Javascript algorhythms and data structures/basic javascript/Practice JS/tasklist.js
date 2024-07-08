@@ -1,4 +1,5 @@
-var taskList = [];
+
+var taskList = ["Math Homework", "Science Project", "English Essay"];
 
 function displayTasks() {
     console.log("Tasks List:");
@@ -22,17 +23,27 @@ function displayTasks() {
     }
 console.log("Total tasks:", taskList.length);
 }
+
+ 
+
+function addTask(subject) {
+    taskList.push(subject);
+    console.log(`Added new task: ${subject}`)
+}
+
+
+
+
+function removeTask(subject){
+    let removedSubject =  taskList.shift([0]);
+    console.log(`Removed task: ${removedSubject}`)}
+displayTasks(); 
+addTask("coding");
+displayTasks(); 
+removeTask();
 displayTasks();
 
-
 /*
-function addtask() {
-    tasklist.push("Coding");
-}
-function removeTask{
-    tasklist.shift("Coding");
-    let removedTask = tasks.shift()
-}
 tasklist.length
 console.log(tasklist);
 
