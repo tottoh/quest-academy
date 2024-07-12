@@ -23,8 +23,6 @@ function displayContact() {
 console.log("Total contacts:", ContactList.length);
 }
 
- 
-
 function addContact(name,phone) {
     ContactList.push({ name: name, phone: phone });
     console.log(`Added new contact: ${name},${phone}`)
