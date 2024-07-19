@@ -35,7 +35,14 @@ for (var i=0; i<contacts.length;i++){
     checkname=contacts[i].hasOwnProperty("firstName");
     console.log(checkname);
 
-} //loop all data
+    
+} 
+
+
+
+
+
+//loop all data
 //check firstname
 //checkfirst has or not
 //check prop
